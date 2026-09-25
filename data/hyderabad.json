@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[78.508904,17.43979]},"properties":{"brand":"Bharat Petroleum","fuel:cng":"yes","name":"Bharat Petroleum","operator":"Bharat Petroleum"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[78.470062,17.394349]},"properties":{"fuel:cng":"yes","name":"Extra Gas"}}]}
