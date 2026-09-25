@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[79.038446,21.18139]},"properties":{"brand":"Indian Auto Gas","fuel:cng":"yes","name":"Indian Auto Gas"}},{"type":"Feature","geometry":{"type":"Point","coordinates":[79.125278,21.177865]},"properties":{"fuel:cng":"yes"}}]}
