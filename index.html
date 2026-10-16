@@ -71,8 +71,21 @@ footer a{color:#64748b}
 #toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%) translateY(10px);background:#0f172a;color:#fff;padding:10px 18px;border-radius:10px;font-size:.85rem;font-weight:600;opacity:0;transition:.3s;pointer-events:none;z-index:999}
 #toast.show{opacity:1;transform:translateX(-50%)}
 @media(max-width:700px){#map{height:60vh}}
+.toc{background:#f0fdf4;border:1px solid #bbf7d0;border-radius:10px;padding:.6rem .8rem;font-size:.85rem;margin:1rem auto;max-width:860px}
+.toc a{color:#15803d;text-decoration:none;margin:0 .15rem}
+.rtable{width:100%;border-collapse:collapse;margin:.6rem 0;font-size:.86rem}
+.rtable th,.rtable td{border:1px solid #e2e8f0;padding:.4rem .5rem;text-align:left}
+.rtable th{background:#15803d;color:#fff}
+.rtable tr:nth-child(even){background:#f8fafc}
+.nnet-grid{display:grid;gap:.5rem;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));margin-top:.4rem}
+.nnet-grid a{display:block;padding:.5rem .6rem;border:1px solid #e2e8f0;border-radius:10px;text-decoration:none;font-size:.86rem;background:#fff}
 </style>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "How do I find a CNG pump open near me right now?", "acceptedAnswer": {"@type": "Answer", "text": "Search 'CNG pump near me' in Google Maps \u2014 listings show opening hours. For late-night needs, look for highway stations, which are more likely to be 24\u00d77."}}, {"@type": "Question", "name": "What are CNG pump timings in India?", "acceptedAnswer": {"@type": "Answer", "text": "Most CNG stations operate from about 6 AM to 10 PM. Some highway and airport-area stations stay open 24 hours."}}, {"@type": "Question", "name": "Which cities in India have CNG?", "acceptedAnswer": {"@type": "Answer", "text": "Delhi NCR, Mumbai, Gujarat cities, Lucknow, Kanpur, Pune and many more across UP, Rajasthan, Punjab, Haryana, MP, Telangana, Karnataka, Tamil Nadu, Kerala and West Bengal."}}, {"@type": "Question", "name": "Why are CNG queues so long in peak hours?", "acceptedAnswer": {"@type": "Answer", "text": "Auto-rickshaws and taxis refuel mostly at day start and end. Fill up mid-morning or mid-afternoon for the shortest waits."}}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "WebSite", "name": "CNG Pumps Near Me \u2014 Live Map of CNG Stations in India", "url": "https://cngpumpsnearme.pages.dev/"}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "ItemList", "name": "CNG pumps by city", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Delhi CNG pumps", "url": "https://cngpumpsnearme.pages.dev/delhi/"}, {"@type": "ListItem", "position": 2, "name": "Mumbai CNG pumps", "url": "https://cngpumpsnearme.pages.dev/mumbai/"}, {"@type": "ListItem", "position": 3, "name": "Bengaluru CNG pumps", "url": "https://cngpumpsnearme.pages.dev/bengaluru/"}, {"@type": "ListItem", "position": 4, "name": "Hyderabad CNG pumps", "url": "https://cngpumpsnearme.pages.dev/hyderabad/"}, {"@type": "ListItem", "position": 5, "name": "Chennai CNG pumps", "url": "https://cngpumpsnearme.pages.dev/chennai/"}, {"@type": "ListItem", "position": 6, "name": "Kolkata CNG pumps", "url": "https://cngpumpsnearme.pages.dev/kolkata/"}, {"@type": "ListItem", "position": 7, "name": "Pune CNG pumps", "url": "https://cngpumpsnearme.pages.dev/pune/"}, {"@type": "ListItem", "position": 8, "name": "Ahmedabad CNG pumps", "url": "https://cngpumpsnearme.pages.dev/ahmedabad/"}, {"@type": "ListItem", "position": 9, "name": "Jaipur CNG pumps", "url": "https://cngpumpsnearme.pages.dev/jaipur/"}, {"@type": "ListItem", "position": 10, "name": "Lucknow CNG pumps", "url": "https://cngpumpsnearme.pages.dev/lucknow/"}, {"@type": "ListItem", "position": 11, "name": "Nagpur CNG pumps", "url": "https://cngpumpsnearme.pages.dev/nagpur/"}, {"@type": "ListItem", "position": 12, "name": "Indore CNG pumps", "url": "https://cngpumpsnearme.pages.dev/indore/"}, {"@type": "ListItem", "position": 13, "name": "Bhopal CNG pumps", "url": "https://cngpumpsnearme.pages.dev/bhopal/"}, {"@type": "ListItem", "position": 14, "name": "Chandigarh CNG pumps", "url": "https://cngpumpsnearme.pages.dev/chandigarh/"}, {"@type": "ListItem", "position": 15, "name": "Surat CNG pumps", "url": "https://cngpumpsnearme.pages.dev/surat/"}]}</script>
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://cngpumpsnearme.pages.dev/"}]}</script>
 </head>
+<nav class="toc"><b>On this page:</b> <a href="#highway">CNG & fuel on highways</a> · <a href="#tips">Quick tips</a> · <a href="#faq">FAQ</a> · <a href="#cities">City guides</a></nav>
 <body>
 <header><div class="wrap"><div class="logo">C</div><div><b>CNG Pumps Near Me</b><small>SKM Studio Network · live OSM data · DIGIPIN directions</small></div></div></header>
 <div class="hero"><div class="wrap">
@@ -111,7 +124,35 @@ footer a{color:#64748b}
 <div class="card"><h2>🗺 City guides</h2><p>Live maps and area-wise guides for 15 Indian cities:</p><div class="cities"><a href="/delhi/">Delhi</a><a href="/mumbai/">Mumbai</a><a href="/bengaluru/">Bengaluru</a><a href="/hyderabad/">Hyderabad</a><a href="/chennai/">Chennai</a><a href="/kolkata/">Kolkata</a><a href="/pune/">Pune</a><a href="/ahmedabad/">Ahmedabad</a><a href="/jaipur/">Jaipur</a><a href="/lucknow/">Lucknow</a><a href="/surat/">Surat</a><a href="/indore/">Indore</a><a href="/chandigarh/">Chandigarh</a><a href="/bhopal/">Bhopal</a><a href="/nagpur/">Nagpur</a></div></div>
 <div class="card"><h2>📊 About this data</h2>
 <p>This map is powered by <b>OpenStreetMap</b> — the free, community-maintained map of the world — refreshed <b>monthly</b> for 15 Indian cities. Missing or wrong spot? Use <b>➕ Add a missing spot</b> above: click the location, get its official <b>DIGIPIN</b> (India Post's 4m-precision digital address), and submit the suggestion for review.</p></div>
-</div></main>
+</div><div class="card" id="highway"><h2>⛽ CNG &amp; fuel stops on Indian highways</h2>
+<p>CNG is densest in cities, but on long drives the reliable refuel-and-rest points are <b>NHAI wayside amenities</b> and expressway fuel plazas (fuel + EV charging + restrooms). Real documented stops:</p>
+<table class="rtable"><thead><tr><th>Corridor</th><th>Stop (chainage)</th><th>Nearest area</th><th>State</th></tr></thead><tbody>
+<tr><td><b>Delhi–Mumbai Expressway</b></td><td>Pinan (KM 125, LHS &amp; RHS)</td><td>Alwar</td><td>Rajasthan</td></tr>
+<tr><td><b>Delhi–Mumbai Expressway</b></td><td>Sainthal (KM 147)</td><td>Alwar</td><td>Rajasthan</td></tr>
+<tr><td><b>Delhi–Mumbai Expressway</b></td><td>Garoth (KM 487)</td><td>Mandsaur</td><td>Madhya Pradesh</td></tr>
+<tr><td><b>Delhi–Mumbai Expressway</b></td><td>Kukdipada (KM 646)</td><td>—</td><td>Madhya Pradesh</td></tr>
+<tr><td><b>Delhi–Mumbai Expressway</b></td><td>"Apna Ghar" (IOCL)</td><td>Dausa</td><td>Rajasthan</td></tr>
+<tr><td><b>NH-44</b></td><td>Hyderabad–Bengaluru wayside amenity</td><td>Anantapur</td><td>Andhra Pradesh</td></tr>
+<tr><td><b>NH-48</b></td><td>Chennai–Vellore wayside amenity</td><td>Kancheepuram</td><td>Tamil Nadu</td></tr>
+<tr><td><b>NH-16</b></td><td>Kolkata–Chennai wayside amenity</td><td>Vijayawada</td><td>Andhra Pradesh</td></tr>
+</tbody></table>
+<p>WSAs carry <b>fuel stations, EV charging, clean restrooms, food courts and dormitories</b>; NHAI is adding them every 40–60 km. Delhi–Mumbai Expressway alone plans ~93–94 stops.</p>
+<p><small>Sources: NHAI wayside-amenity directory + PIB releases + DME operator listings. CNG availability varies — confirm on Maps before relying on a highway CNG fill.</small></p></div>
+<div class="card"><h2>🏙 Where CNG is densest (city hubs)</h2>
+<p>Most CNG demand and infrastructure sits in <b>Delhi NCR, Mumbai, Gujarat (Ahmedabad, Surat, Vadodara), Lucknow, Kanpur, Pune, Hyderabad and Bengaluru</b>. In these cities a CNG station is usually within a few km — use the city guides below.</p></div>
+<div class="card"><h2>🧭 More near-me finders</h2>
+<div class="nnet-grid">
+<a href="https://petrolpumpsnearme.pages.dev/">⛽ Petrol pumps near me</a>
+<a href="https://evchargersnearme.pages.dev/">⚡ EV chargers near me</a>
+<a href="https://restareanearme.pages.dev/">🛣 Rest areas near me</a>
+<a href="https://toiletsnearme.pages.dev/">🚻 Toilets near me</a>
+<a href="https://hospitalsnearme.pages.dev/">🏥 Hospitals near me</a>
+<a href="https://atmsnearme.pages.dev/">🏧 ATMs near me</a>
+<a href="https://hotelnearme.pages.dev/">🏨 Hotels near me</a>
+<a href="https://mapsnearme.pages.dev/">🏢 Businesses near me</a>
+<a href="https://digipincode.india-in.workers.dev/">📮 Pincode &amp; DIGIPIN</a>
+</div></div>
+</main>
 <footer>CNG Pumps Near Me — an SKM Studio Network site · <a href="https://cngpumpsnearme.pages.dev/">https://cngpumpsnearme.pages.dev</a> · Map data © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap contributors</a> (ODbL)<br>
 General information only · Emergency? Call <b>112</b></footer>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
